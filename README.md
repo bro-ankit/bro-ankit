@@ -72,7 +72,7 @@ Browser-based face detection and recognition using Clarifai API
 COVID-19 statistics dashboard with real-time API integration
 - **Tech:** JavaScript, REST APIs, Data visualization
 
-### 🎮 [To Games](https://github.com/bro-ankit/to-games)
+### 🎮 [To Games](https://github.com/bro-ankit/toGames)
 AI-powered game collection featuring Maze Runner & Tic Tac Toe
 - **Tech:** JavaScript, Algorithm Implementation
 - **Algorithms:** DFS pathfinding, Minimax with Alpha-Beta Pruning
