@@ -53,10 +53,10 @@ Testing:       Cypress • Jest • Vitest • Mockito • TestNG • E2E Testin
 
 ## 🌟 Featured Projects
 
-### 🎵 [Music Streamer](https://github.com/bro-ankit/Music-Streamer)
+### 🔗 [NestJS Type Transactional Context ORM](https://github.com/bro-ankit/nestjs-typeorm-transactional-context)
 Full-stack music streaming platform with real-time playback
-- **Tech:** React, Node.js, MongoDB, REST APIs
-- **Features:** User authentication, playlist management, streaming engine
+- **Tech:** NestJS, TypeORM
+- **Features:** True Transactional Propagation, Zero Decorator Magic, Production-Safe
 
 ### 🤖 [RoboFriends](https://github.com/bro-ankit/roboFriends)
 React application demonstrating component architecture and state management
@@ -102,6 +102,7 @@ I'm interested in opportunities where I can:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-pradhan-lm10/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bro-ankit)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jsankit99@gmail.com)
+[![Website](https://img.shields.io/badge/Website-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ankitpradhan.netlify.app/)
 
 </div>
 
