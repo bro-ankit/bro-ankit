@@ -18,12 +18,13 @@ Senior Software Engineer with **4+ years** of experience building scalable, dist
 
 ### Core Technologies
 ```yaml
-Backend:       Node.js • NestJS • Spring Boot • Express • Java • TypeScript
+Backend:       Node.js • NestJS • Spring Boot • Express • Java • TypeScript • Python
 Frontend:      React • JavaScript • GraphQL • REST APIs • gRPC
 Cloud & Infra: AWS (Fargate, EKS, S3, SQS, Lambda, SNS) • GCP • Docker • Kubernetes • KEDA
-Data Layer:    PostgreSQL • MongoDB • Redis • Apache Kafka • Event-Driven Architecture
+Data Layer:    PostgreSQL • MongoDB • Redis • Apache Kafka • Event-Driven Architecture • Apache Spark (PySpark) · Delta Lake · Databricks · pgvector · BullMQ
 DevOps:        GitHub Actions • CI/CD • Terraform • Autoscaling • Load Testing
-Testing:       Cypress • Jest • Vitest • Mockito • TestNG • E2E Testing
+Testing:       Cypress • Jest • Vitest • Mockito • TestNG • E2E Testing • TestContainers
+AI / ML:       Gemini API • RAG Pipelines • Vector Embeddings • scikit-learn • LLM Structured Outputs
 ```
 
 ### Specialized Skills
@@ -53,24 +54,21 @@ Testing:       Cypress • Jest • Vitest • Mockito • TestNG • E2E Testin
 
 ## 🌟 Featured Projects
 
+### 🔗 [Smart Semantic Bookmarking & Memory Engine](https://github.com/bro-ankit/smart-semantic-bookmarking-and-memory-engine)
+Production-grade micro-RAG pipeline — ingest raw text or URLs, retrieve grounded answers from your own saved knowledge
+- **Tech:** NestJS · CQRS · Gemini 2.5 Flash · pgvector · BullMQ · Drizzle ORM · Puppeteer
+- **Features:** Tiered URL scraping (Readability → Puppeteer fallback) · Cosine similarity semantic search · Hallucination-resistant Q&A · Retry + circuit breaker on all LLM calls
+
+### 🔗 [Campus Placement Data Pipeline](https://github.com/bro-ankit/campus-placement-pipeline)
+Production-grade Databricks lakehouse pipeline — Bronze/Silver/Gold medallion architecture with ML-powered placement outcome predictions
+- **Tech:** PySpark · Delta Lake · Databricks · scikit-learn · FastAPI · Databricks Connect
+- **Features:** Medallion pipeline with dead-letter quarantine · 30-feature Random Forest model · FastAPI serving lakehouse predictions on serverless compute · Structured observability + data validation at every layer
+
+
 ### 🔗 [NestJS Type Transactional Context ORM](https://github.com/bro-ankit/nestjs-typeorm-transactional-context)
 Full-stack music streaming platform with real-time playback
 - **Tech:** NestJS, TypeORM
 - **Features:** True Transactional Propagation, Zero Decorator Magic, Production-Safe
-
-### 🤖 [RoboFriends](https://github.com/bro-ankit/roboFriends)
-React application demonstrating component architecture and state management
-- **Tech:** React, JavaScript, API integration
-- **Highlights:** Search functionality, responsive design, performance optimization
-
-### 👁️ [Face Recognition UI](https://github.com/bro-ankit/Face-Detection)
-Browser-based face detection and recognition using Clarifai API
-- **Tech:** JavaScript, React, Clarifai API
-- **Implementation:** Real-time face detection in browser environment
-
-### 🦠 [Corona Data Tracker](https://github.com/bro-ankit/corona-datas)
-COVID-19 statistics dashboard with real-time API integration
-- **Tech:** JavaScript, REST APIs, Data visualization
 
 ### 🎮 [To Games](https://github.com/bro-ankit/toGames)
 AI-powered game collection featuring Maze Runner & Tic Tac Toe
