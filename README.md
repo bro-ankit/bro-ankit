@@ -54,7 +54,7 @@ AI / ML:       Gemini API • RAG Pipelines • Vector Embeddings • scikit-lea
 
 ## 🌟 Featured Projects
 
-### 🔗 [Smart Semantic Bookmarking & Memory Engine](https://github.com/bro-ankit/smart-semantic-bookmarking-and-memory-engine)
+### 🔗 [Smart Semantic Bookmarking & Memory Engine](https://github.com/bro-ankit/smart-semantic-booking-and-memory-engine)
 Production-grade micro-RAG pipeline — ingest raw text or URLs, retrieve grounded answers from your own saved knowledge
 - **Tech:** NestJS · CQRS · Gemini 2.5 Flash · pgvector · BullMQ · Drizzle ORM · Puppeteer
 - **Features:** Tiered URL scraping (Readability → Puppeteer fallback) · Cosine similarity semantic search · Hallucination-resistant Q&A · Retry + circuit breaker on all LLM calls
