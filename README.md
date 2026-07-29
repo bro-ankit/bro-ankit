@@ -18,7 +18,7 @@ Senior Software Engineer with **4+ years** building production systems at scale.
 ## Technical Stack
 
 ```yaml
-Backend:    Node.js • NestJS • Express • TypeScript • Python (FastAPI)
+Backend:    Node.js • NestJS • Express • TypeScript • Python (FastAPI) • Java (Spring Boot)
 Frontend:   React • Next.js • TypeScript
 Cloud:      AWS (Fargate, RDS, S3, Lambda, SQS, SNS) • GCP • Docker • Kubernetes • KEDA
 Data:       PostgreSQL • MongoDB • Redis • Apache Kafka • BullMQ
