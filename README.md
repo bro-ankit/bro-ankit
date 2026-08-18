@@ -1,16 +1,16 @@
 # Hi there, I'm Ankit 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Senior+Software+Engineer;Distributed+Systems+%7C+Microservices;Cloud-Native+Architecture;4%2B+Years+Production+Experience;Based+in+Nepal+%F0%9F%87%B3%F0%9F%87%B5" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Senior+Software+Engineer;Workflow+%26+Approval+Systems+%7C+AI+Agents;Distributed+Systems+%7C+Microservices;5%2B+Years+Production+Experience;Based+in+Nepal+%F0%9F%87%B3%F0%9F%87%B5" alt="Typing SVG" />
 </div>
 
 ## About Me
 
-Senior Software Engineer with **4+ years** building production systems at scale. I specialize in distributed architectures, event-driven pipelines, and performance optimization.
+Senior Software Engineer with **5+ years** shipping production systems at scale. I specialize in workflow/approval engines, document orchestration pipelines, and distributed data processing, and I use AI tools (Claude Code, Gemini) as a core part of my daily engineering workflow, now extending into building agentic AI systems myself.
 
-- **Currently:** Senior Engineer at Progressive Labs – financial systems processing 50K+ daily transactions
-- **Expertise:** Full-stack, microservices, event-driven systems, cloud infrastructure
-- **Open to:** Senior/Lead roles, fullstack product work, system design challenges
+- **Currently:** Senior Engineer (mentoring role) at Progressive Labs, architecting the workflow and approval systems behind a fintech platform processing 50K+ daily transactions
+- **Expertise:** Workflow state machines, approval/document orchestration engines, distributed systems, PostgreSQL at scale, applied AI/agentic systems
+- **Open to:** Senior/Lead roles, technical leadership, system design challenges
 - **Location:** Kathmandu, Nepal · UTC+5:45 · Remote-friendly
 
 ---
@@ -18,55 +18,72 @@ Senior Software Engineer with **4+ years** building production systems at scale.
 ## Technical Stack
 
 ```yaml
-Backend:    Node.js • NestJS • Express • TypeScript • Python (FastAPI) • Java (Spring Boot)
-Frontend:   React • Next.js • TypeScript
-Cloud:      AWS (Fargate, RDS, S3, Lambda, SQS, SNS) • GCP • Docker • Kubernetes • KEDA
-Data:       PostgreSQL • MongoDB • Redis • Apache Kafka • BullMQ
-DevOps:     GitHub Actions • Flux • ArgoCD • Terraform
-Testing:    Jest • Vitest • Cypress • React Testing Library
-AI / ML:    Gemini API • RAG systems • pgvector • Claude Code (daily driver)
+Backend:      Node.js (5+ yrs) • NestJS • Express • TypeScript • Java (Spring Boot) • Python (FastAPI)
+Workflow:     State Machines • Approval Engines • Orkes Conductor • Document Orchestration • Audit Trails
+Data:         PostgreSQL (query optimization, JSONB, materialized views) • Neo4j (graph/Cypher) • MongoDB • Redis
+Messaging:    Apache Kafka • BullMQ • AWS SQS/SNS
+Cloud:        AWS (Fargate, EKS, RDS, S3, Lambda, KEDA) • GCP • Docker • Kubernetes • Terraform
+Integrations: Braintree/PayPal • Plaid/Dwolla • webhook handling • API contract design
+DevOps:       GitHub Actions • Flux • ArgoCD • blue-green deploys • PagerDuty • Sentry
+Testing:      Jest • Vitest • Cypress • Testcontainers
+AI / ML:      Gemini API • Multi-Agent Orchestration • MCP (Model Context Protocol) • Hybrid Search & RAG
+              • LLM-as-Judge Evals • Claude Code (daily driver)
 ```
 
 ---
 
 ## Professional Experience
 
-### Senior Software Engineer — Progressive Labs
+### Senior Software Engineer (Mentoring Role), Progressive Labs
 *Sep 2024 – Present · Kathmandu, Nepal*
 
-- **Payment Service** – Built Node.js/React payment processing system (Braintree, PayPal, Stripe) handling 50K+ daily transactions at 99.95% success rate; idempotent workflows, audit logging, transaction reconciliation
-- **Export Pipeline** – Architected distributed document export on AWS Fargate + KEDA autoscaling; 100K+ docs/hour, 40% faster with PostgreSQL query optimization and intelligent caching
-- **Engineering Culture** – Established 85%+ test coverage standard, mentored juniors, built shared component libraries
+- **Approval & Workflow Engine** – Architected an approval/workflow engine handling bulk operations across millions of entities: clustering-based coordination without row-level locking, hierarchical state management, real-time state transitions, and full audit logging
+- **Multi-Tenant Billing System** – Built a transaction-lifecycle state machine (pending, approved, settled, reconciled) for a payments platform processing 50K+ daily transactions at 99.95% uptime, integrating Braintree/PayPal for payments and Plaid/Dwolla for banking
+- **Document Orchestration Pipeline** – Designed a distributed export pipeline (AWS Fargate, S3, SQS, KEDA, Orkes Conductor) rendering and delivering 100K+ PDFs/hour with idempotent, retryable processing and template-driven rendering across multiple layouts
+- **PostgreSQL at Scale** – Cut critical query latency from 15s to 800ms through execution-plan analysis, GIN indexing, JSONB optimization, and materialized views
+- **Engineering Culture** – Established an 85%+ test coverage standard, mentored engineers, led code reviews and architecture decisions, and use Claude Code/AI tools daily as part of the workflow
+- 🏆 **Employee of the Quarter, Q4 2024**
 
-### Software Engineer — Proshore / PowerLedger
+### Software Engineer, Proshore / PowerLedger
 *Sep 2022 – Jul 2024 · Kathmandu, Nepal*
 
-- **Kafka Streaming** – Built real-time pipeline from internal registry → blockchain adapter (gRPC) → Solana; idempotent delivery, sub-second latency at millions of ops/day
-- **Blockchain Migration** – Managed zero-downtime migration of millions of records from Ethereum to Solana; 100% availability maintained throughout
-- **GraphQL Federation** – Implemented Apollo Federation v1 gateway across Java microservices; backward-compatible, independently deployable
-- **GitOps CI/CD** – GitHub Actions + Flux on GCP; 70% reduction in deployment cycle time, zero-downtime releases
+- **Blockchain Energy Platform (TraceX)** – Shipped full-stack features end-to-end across React frontends and Node.js/Spring Boot backends
+- **Kafka Event Streaming** – Real-time pipeline from an internal registry through a gRPC blockchain adapter to Solana, with at-least-once delivery semantics, idempotency, and sub-second latency at millions of ops/day
+- **Zero-Downtime Migration** – Migrated millions of records from Ethereum to Solana with 100% availability maintained throughout
+- **GraphQL Federation** – Apollo Federation gateway across distributed Java microservices with backward-compatible schema composition
+- **CI/CD & Velocity** – GitHub Actions + GCP cut deployment time 70%; led a monorepo decomposition that boosted release velocity 3x; Cypress E2E suite reached 85% regression coverage
+- 🏆 **Spark of the Month, 2023**
 
-### Backend Engineer — Code Himalaya
+### Backend Engineer, Code Himalaya
 *May 2022 – Aug 2022 · Lalitpur, Nepal*
 
-- Built WebSocket infrastructure for real-time interactions; 60% faster feature delivery through reusable patterns
-- Implemented OAuth 2.0 + JWT authentication with security-first design
+- Built a WebSocket infrastructure template for real-time interactions, cutting feature delivery time 60% through reusable patterns
+- Implemented OAuth 2.0 + JWT authentication and scheduling systems with a security-first design
+- Built an automated email warmup pipeline, improving domain reputation and inbox deliverability rates 40%
 
-### Junior Software Engineer — TechKilla Technologies
+### Junior Software Engineer, TechKilla Technologies
 *Nov 2020 – Jun 2021 · New Delhi, India*
 
-- Built game mechanics (Minimax/Alpha-Beta Tic-Tac-Toe, pathfinding visualizer) and backend services for 1K+ concurrent users
+- Built core components for a virtual event platform supporting 1K+ concurrent users, plus game mechanics (Minimax/Alpha-Beta Tic-Tac-Toe, pathfinding visualizer)
 
 ---
 
 ## Projects
 
-### [Smart Semantic Bookmarking & Memory Engine](https://github.com/bro-ankit/smart-semantic-booking-and-memory-engine)
-Production-grade RAG system for knowledge management · NestJS · CQRS · Gemini 2.5 Flash · pgvector · BullMQ · Puppeteer
+### [AI Incident Response Copilot](https://github.com/bro-ankit/ai-incident-response-copilot)
+Multi-agent incident investigation system · NestJS · CQRS · Gemini · MCP · Neo4j · pgvector
 
-- URL ingestion with Readability → Puppeteer fallback for JS-heavy sites
-- Cosine similarity semantic search over pgvector embeddings
-- Hallucination-resistant Q&A with structured LLM outputs (Zod-validated)
+- Four specialized agents (log analysis, runbook search, root-cause synthesis, remediation) coordinated by an orchestrator, each reaching its tools through real MCP servers over stdio
+- Service-dependency blast-radius lookups via Neo4j/Cypher, feeding remediation risk assessment
+- Graceful degradation on sub-agent failure/timeout (retry, circuit breaker, timeout), partial results with explicit warnings instead of a hard failure
+- LLM-as-judge eval harness scoring correctness and groundedness against a seeded golden set: 0.96 avg correctness, 1.00 avg groundedness
+
+### [Smart Semantic Bookmarking & Memory Engine](https://github.com/bro-ankit/smart-semantic-booking-and-memory-engine)
+Production-grade RAG system for knowledge management · NestJS · CQRS · Gemini · pgvector · BullMQ · Puppeteer
+
+- URL ingestion with Readability, falling back to Puppeteer for JS-heavy sites
+- Cosine similarity semantic search over pgvector embeddings, fused with keyword search and reranking
+- Hallucination-resistant Q&A with structured, Zod-validated LLM outputs
 - Retry logic, circuit breakers, dead-letter queue handling
 
 ### [Campus Placement Data Pipeline](https://github.com/bro-ankit/campus-placement-pipeline)
@@ -76,18 +93,19 @@ Enterprise Databricks lakehouse pipeline with ML predictions · PySpark · Delta
 - 30-feature Random Forest model for placement outcome prediction served via FastAPI
 - Structured logging, data quality checks, dead-letter quarantine
 
-### [To Games — Algorithm Visualizers](https://bro-ankit.github.io/toGames/)
+### [To Games, Algorithm Visualizers](https://bro-ankit.github.io/toGames/)
 Interactive algorithm demos: Minimax Tic-Tac-Toe, DFS pathfinding visualizer · JavaScript · Canvas API
 
 ---
 
 ## Open Source
 
-### [nestjs-typeorm-transactional-context](https://www.npmjs.com/package/@bro-ankit/nestjs-typeorm-transactional-context)
-Production-grade NestJS library for type-safe transactional database operations — **80+ weekly downloads**
+### [pnpm](https://github.com/pnpm/pnpm) (contributor)
+Fixed an auth config bug affecting multiple parts of the package manager, merged into a project used by millions of developers.
+[github.com/pnpm/pnpm/pull/12679](https://github.com/pnpm/pnpm/pull/12679)
 
-- True transactional propagation, no decorator magic, production-safe
-- Used in fintech and payment systems
+### [nestjs-typeorm-transactional-context](https://www.npmjs.com/package/@bro-ankit/nestjs-typeorm-transactional-context)
+Production-grade NestJS library for type-safe transactional database operations, used in fintech and payment systems, 80+ weekly downloads.
 
 ---
 
