@@ -47,7 +47,7 @@ AI / ML:      Gemini API • Multi-Agent Orchestration • MCP (Model Context Pr
 ### Software Engineer, Proshore / PowerLedger
 *Sep 2022 – Jul 2024 · Kathmandu, Nepal*
 
-- **Blockchain Energy Platform (TraceX)** – Shipped full-stack features end-to-end across React frontends and Node.js/Spring Boot backends
+- **Blockchain Energy Platform (TraceX)** – Developed full-stack features end-to-end across React frontends and Node.js/Spring Boot backends
 - **Kafka Event Streaming** – Real-time pipeline from an internal registry through a gRPC blockchain adapter to Solana, with at-least-once delivery semantics, idempotency, and sub-second latency at millions of ops/day
 - **Zero-Downtime Migration** – Migrated millions of records from Ethereum to Solana with 100% availability maintained throughout
 - **GraphQL Federation** – Apollo Federation gateway across distributed Java microservices with backward-compatible schema composition
